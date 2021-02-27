@@ -78,8 +78,21 @@
   // Profile images
   const MALE_PROFILE = require('../static/images/profile-boy.jpg');
   const FEMALE_PROFILE = require('../static/images/profile-girl.jpg');
+  const MARZIEH_MALEKI_MAJD = FEMALE_PROFILE;
+  const DANI_BAZI = require('../static/images/danial.jpg');
+  const ALI_SEDGHI = require('../static/images/ali.jpg');
+  const AMIN_GHASVARI = require('../static/images/amin.png');
+  const AMIRH_AHMADI = require('../static/images/amir h.jpg');
+  const RAMTIN_EHSANI = require('../static/images/ramtin.jpg');
+  const MOBINA_KASHANIAN = require('../static/images/mobina.jpg');
+  const REZA_GHAHRAMANI = require('../static/images/reza.jpg');
+  const SINA_ZIAEE = require('../static/images/sina.jpg');
+
+  // References covers
   const REF_BOOK_1 = require('../static/images/ref_book1.jpg');
   const REF_BOOK_2 = require('../static/images/ref_book2.jpg');
+  const CLRS = require('../static/images/clrs.png');
+  const CLRS_FILE = 'https://github.com/TLA-IUST/TLA-IUST.github.io/blob/master/static/references/Michael%20Sipser%20-%20Introduction%20to%20the%20Theory%20of%20Computation%20(2012%2C%20Thomson%20South-Western).pdf';
 
   // Resources Covers
   export default {
@@ -140,9 +153,9 @@
 
       // Course Details
       course: {
-        title: "Course Name",
+        title: "Algorithm",
         subtitle: "More Details about course",
-        description: "The theory of computation includes several topics: automata theory, formal languages and grammars, computability, and complexity. Together, this material constitutes the theoretical foundation of computer science. Loosely speaking we can think of automata, grammars, and computability as the study of what can be done by computers in principle, while complexity addresses what can be done in practice...",
+        description: "Informally, an algorithm is any well-deﬁned computational procedure that takes some value, or set of values, as input and produces some value, or set of values, as output. An algorithm is thus a sequence of computational steps that transform the input into the output...",
       },
 
       // Main Menu
@@ -207,49 +220,31 @@
             end: '2021-02-25 20:00',
             color: 'red'
           },
-          {
-            name: 'Event 2',
-            start: '2021-02-09 12:30',
-            end: '2021-02-19 15:30',
-            color: 'indigo'
-          },
-          {
-            name: 'Event 3',
-            start: '2021-02-09 12:30',
-            end: '2021-02-15 15:30',
-            color: 'green'
-          },
-          {
-            name: 'Event 4',
-            start: '2021-02-20 12:30',
-            end: '2021-02-24 15:30',
-            color: 'blue'
-          },
         ]
       },
 
       // Assignments
       assignments: [
-        {
-          name: "Assignment number 1",
-          file: ''
-        },
-        {
-          name: "Assignment number 2",
-          file: ''
-        },
-        {
-          name: "Assignment number 3",
-          file: ''
-        },
-        {
-          name: "Assignment number 4",
-          file: ''
-        },
-        {
-          name: "Assignment number 5",
-          file: ''
-        }
+        // {
+        //   name: "Assignment number 1",
+        //   file: ''
+        // },
+        // {
+        //   name: "Assignment number 2",
+        //   file: ''
+        // },
+        // {
+        //   name: "Assignment number 3",
+        //   file: ''
+        // },
+        // {
+        //   name: "Assignment number 4",
+        //   file: ''
+        // },
+        // {
+        //   name: "Assignment number 5",
+        //   file: ''
+        // }
       ],
 
       // Projects
@@ -271,50 +266,46 @@
       // Characters
       people: {
         professor: {
-          name: "Professor",
-          image: MALE_PROFILE
+          name: "‪Marzieh Malekimajd",
+          image: FEMALE_PROFILE
         },
         assistants: [
           {
-            name: "Assistant 1",
+            name: "Danial Bazmandeh",
+            image: DANI_BAZI
+          },
+          {
+            name: "Mobina Kashanian",
+            image: MOBINA_KASHANIAN
+          },
+          {
+            name: "M.Amin Ghasvari",
+            image: AMIN_GHASVARI
+          },
+          {
+            name: "Amir H. Ahmadi",
+            image: AMIRH_AHMADI
+          },
+          {
+            name: "Ramtin Ehsani",
+            image: RAMTIN_EHSANI
+          },
+          {
+            name: "Ali Sedaghi",
+            image: ALI_SEDGHI
+          },
+          {
+            name: "Sina Ziaee",
+            image: SINA_ZIAEE
+          },
+          {
+            name: "Reza Ghahremani",
+            image: REZA_GHAHRAMANI
+          },
+          {
+            name: "Mostafa MohammadAliEbrahim",
             image: MALE_PROFILE
           },
-          {
-            name: "Assistant 2",
-            image: MALE_PROFILE
-          },
-          {
-            name: "Assistant 3",
-            image: FEMALE_PROFILE
-          },
-          {
-            name: "Assistant 4",
-            image: FEMALE_PROFILE
-          },
-          {
-            name: "Assistant 5",
-            image: MALE_PROFILE
-          },
-          {
-            name: "Assistant 6",
-            image: FEMALE_PROFILE
-          },
-          {
-            name: "Assistant 7",
-            image: MALE_PROFILE
-          },
-          {
-            name: "Assistant 8",
-            image: MALE_PROFILE
-          },
-          {
-            name: "Assistant 9",
-            image: FEMALE_PROFILE
-          },
-          {
-            name: "Assistant 10",
-            image: MALE_PROFILE
-          }
         ],
       },
 
@@ -322,37 +313,18 @@
       materials: {
         main: [
           {
-            name: "Reference 1",
+            name: "CLRS",
             description: "This book is Reference 1",
-            cover: REF_BOOK_1,
+            cover: CLRS,
+            file: CLRS_FILE
           },
-          {
-            name: "Reference 2",
-            description: "This book is Reference 2",
-            cover: REF_BOOK_2,
-          }
         ],
         additional: [
-          {
-            name: "Reference 1",
-            description: "This book is Reference 1",
-            cover: REF_BOOK_2,
-          },
-          {
-            name: "Reference 2",
-            description: "This book is Reference 2",
-            cover: REF_BOOK_1,
-          },
-          {
-            name: "Reference 3",
-            description: "This book is Reference 3",
-            cover: REF_BOOK_2,
-          },
-          {
-            name: "Reference 4",
-            description: "This book is Reference 4",
-            cover: REF_BOOK_1,
-          }
+          // {
+          //   name: "Reference 4",
+          //   description: "This book is Reference 4",
+          //   cover: REF_BOOK_1,
+          // }
         ]
       }
     }),
