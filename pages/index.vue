@@ -92,7 +92,7 @@
   const REF_BOOK_1 = require('../static/images/ref_book1.jpg');
   const REF_BOOK_2 = require('../static/images/ref_book2.jpg');
   const CLRS = require('../static/images/clrs.png');
-  const CLRS_FILE = 'https://github.com/TLA-IUST/TLA-IUST.github.io/blob/master/static/references/Michael%20Sipser%20-%20Introduction%20to%20the%20Theory%20of%20Computation%20(2012%2C%20Thomson%20South-Western).pdf';
+  const CLRS_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/CLRS%20third%20edition.pdf';
 
   // Resources Covers
   export default {
