@@ -43,10 +43,24 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/pwa',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
+
+  pwa: {
+    meta: {
+      title: 'Algorithm Course',
+      author: 'Amin-MAG',
+    },
+    manifest: {
+      name: 'Algorithm Course',
+      short_name: 'Algorithm Course',
+      lang: 'en',
+    },
+  },
+
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
