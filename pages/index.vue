@@ -78,7 +78,7 @@
   // Profile images
   const MALE_PROFILE = require('../static/images/profile-boy.jpg');
   const FEMALE_PROFILE = require('../static/images/profile-girl.jpg');
-  const MARZIEH_MALEKI_MAJD = FEMALE_PROFILE;
+  const MARZIEH_MALEKIMAJD = require('../static/images/instructor.jpg');
   const DANI_BAZI = require('../static/images/danial.jpg');
   const ALI_SEDGHI = require('../static/images/ali.jpg');
   const AMIN_GHASVARI = require('../static/images/amin.png');
@@ -87,6 +87,7 @@
   const MOBINA_KASHANIAN = require('../static/images/mobina.jpg');
   const REZA_GHAHRAMANI = require('../static/images/reza.jpg');
   const SINA_ZIAEE = require('../static/images/sina.jpg');
+  const MOSTAFA = require('../static/images/mostafa.jpg');
 
   // References covers
   const REF_BOOK_1 = require('../static/images/ref_book1.jpg');
@@ -216,8 +217,8 @@
         events: [
           {
             name: 'Introduction',
-            start: '2021-02-25 18:00',
-            end: '2021-02-25 20:00',
+            start: '2021-02-28 21:00',
+            end: '2021-02-28 22:00',
             color: 'red'
           },
         ]
@@ -267,7 +268,7 @@
       people: {
         professor: {
           name: "‪Marzieh Malekimajd",
-          image: FEMALE_PROFILE
+          image: MARZIEH_MALEKIMAJD
         },
         assistants: [
           {
@@ -304,7 +305,7 @@
           },
           {
             name: "Mostafa MohammadAliEbrahim",
-            image: MALE_PROFILE
+            image: MOSTAFA
           },
         ],
       },
