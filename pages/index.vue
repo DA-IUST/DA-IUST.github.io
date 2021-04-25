@@ -95,6 +95,13 @@
   const CLRS = require('../static/images/clrs.png');
   const CLRS_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/CLRS%20third%20edition.pdf';
 
+  // Assignments
+  const HW1_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/DA_HW1.pdf';
+  const HW2_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/DA_HW2.pdf';
+  const HW3_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/DA_HW3.pdf';
+  const HW4_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/DA_HW4.pdf';
+
+
   // Resources Covers
   export default {
     computed: {
@@ -226,22 +233,22 @@
 
       // Assignments
       assignments: [
-        // {
-        //   name: "Assignment number 1",
-        //   file: ''
-        // },
-        // {
-        //   name: "Assignment number 2",
-        //   file: ''
-        // },
-        // {
-        //   name: "Assignment number 3",
-        //   file: ''
-        // },
-        // {
-        //   name: "Assignment number 4",
-        //   file: ''
-        // },
+        {
+          name: "Assignment 1",
+          file: HW1_FILE
+        },
+        {
+          name: "Assignment 2",
+          file: HW2_FILE
+        },
+        {
+          name: "Assignment 3",
+          file: HW3_FILE
+        },
+        {
+          name: "Assignment 4",
+          file: HW4_FILE
+        }
         // {
         //   name: "Assignment number 5",
         //   file: ''
