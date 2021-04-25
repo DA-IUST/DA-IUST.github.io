@@ -96,10 +96,10 @@
   const CLRS_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/CLRS%20third%20edition.pdf';
 
   // Assignments
-  const HW1_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/DA_HW1.pdf';
-  const HW2_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/DA_HW2.pdf';
-  const HW3_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/DA_HW3.pdf';
-  const HW4_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/references/DA_HW4.pdf';
+  const HW1_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/files/DA_HW1.pdf';
+  const HW2_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/files/DA_HW2.pdf';
+  const HW3_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/files/DA_HW3.pdf';
+  const HW4_FILE = 'https://github.com/DA-IUST/DA-IUST.github.io/blob/master/static/files/DA_HW4.pdf';
 
 
   // Resources Covers
